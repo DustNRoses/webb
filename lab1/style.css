@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px; 
+}
+
+
+p {
+    text-indent: 20px;
+}
+.title {
+    text-align: center; /* Выравнивание по центру */
+    text-decoration: line-through; /* Перечеркнутый текст */
+    font-family: Tahoma, sans-serif; /* Шрифт */
+    font-weight: 700; /* Жирный текст */
+    letter-spacing: -2px; /* Уменьшение расстояния между буквами */
+    text-transform: uppercase; /* Заглавные буквы */
+}
+
+
+
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    color: #114eaf;
+}
+
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+table{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+table, table td, table th {
+	border: 1px solid #595959;
+}
+table td,table th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table th {
+	    background: #4e6982;
+	color: #fff; 
+	font-weight: normal;
+}
