@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #000;
+    background-color: #eaa0a0;
+    border: 2px solid;
+    border-color: #aaa #000 #000 #aaa; 
+}
+a:active {
+    border-color: #000 #aaa #aaa #000;
+}
